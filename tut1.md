@@ -59,8 +59,8 @@ Common Status Codes:
 ```mermaid
 graph TB
     subgraph "REST vs TRPC Comparison"
-    A[Client] --> B[REST: /api/users]
-    A --> C[TRPC: users.getAll()]
+    A[Client] --> B["REST: /api/users"]
+    A --> C["TRPC: users.getAll()"]
     B --> D[Resource-Based]
     C --> E[Procedure-Based]
     end
